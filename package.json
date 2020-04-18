@@ -5,5 +5,21 @@
   "main": "index.js",
   "dependencies": {
     "chinese-lexicon": "^1.0.40"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterolson/aws-chinese-forced-alignment"
+  },
+  "keywords": [
+    "chinese",
+    "forced alignment",
+    "aws",
+    "transcribe"
+  ],
+  "author": "Peter Olson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterolson/aws-chinese-forced-alignment/issues"
+  },
+  "homepage": "https://github.com/peterolson/aws-chinese-forced-alignment#readme"
 }
