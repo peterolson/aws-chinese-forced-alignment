@@ -1,4 +1,4 @@
-a	a
+module.exports = `a	a
 ai	ai
 an	a n
 ang	a ng
@@ -418,4 +418,4 @@ zuan	z ua n
 zui	z uei
 zun	z ue n
 zuo	z uo
-xx	x x
+xx	x x`.split("\n").map(x => x.split("\t"));

@@ -1,6 +1,6 @@
 const fs = require("fs");
+const syllabToPhonemes = require("./syllabToPhonemes");
 
-let syllabToPhonemes = String(fs.readFileSync("syllabToPhonemes.txt")).split("\n").map(x => x.split("\t"));
 let syllabDict = {};
 for (let [syllab, phonemes] of syllabToPhonemes) {
     syllabDict[syllab] = phonemes.split(" ");
