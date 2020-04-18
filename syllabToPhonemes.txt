@@ -1,0 +1,421 @@
+a	a
+ai	ai
+an	a n
+ang	a ng
+ao	ao
+ba	b a
+bai	b ai
+ban	b a n
+bang	b a ng
+bao	b ao
+bei	b ei
+ben	b e n
+beng	b e ng
+bi	b i
+bia	b ia
+bian	b ia n
+biao	b iao
+bie	b ie
+bin	b i n
+bing	b i ng
+biu	b iou
+bo	b o
+bu	b u
+ca	c a
+cai	c ai
+can	c a n
+cang	c a ng
+cao	c ao
+ce	c e
+cen	c e n
+ceng	c e ng
+cha	ch a
+chai	ch ai
+chan	ch a n
+chang	ch a ng
+chao	ch ao
+che	ch e
+chen	ch e n
+cheng	ch e ng
+chi	ch ii
+chong	ch o ng
+chou	ch ou
+chu	ch u
+chua	ch ua
+chuai	ch uai
+chuan	ch ua n
+chuang	ch ua ng
+chui	ch uei
+chun	ch ue n
+chuo	ch uo
+ci	c ii
+cong	c o ng
+cou	c ou
+cu	c u
+cuan	c ua n
+cui	c uei
+cun	c ue n
+cuo	c uo
+da	d a
+dai	d ai
+dan	d a n
+dang	d a ng
+dao	d ao
+de	d e
+dei	d ei
+den	d e n
+deng	d e ng
+di	d i
+dia	d ia
+dian	d ia n
+diao	d iao
+die	d ie
+ding	d i ng
+diu	d iou
+dong	d o ng
+dou	d ou
+du	d u
+duan	d ua n
+dui	d uei
+dun	d ue n
+duo	d uo
+e	e
+ei	ei
+en	e n
+eng	e ng
+er	e r
+fa	f a
+fan	f a n
+fang	f a ng
+fei	f ei
+fen	f e n
+feng	f e ng
+fiao	f iao
+fo	f o
+fou	f ou
+fu	f u
+ga	g a
+gai	g ai
+gan	g a n
+gang	g a ng
+gao	g ao
+ge	g e
+gei	g ei
+gen	g e n
+geng	g e ng
+ging	g i ng
+gong	g o ng
+gou	g ou
+gu	g u
+gua	g ua
+guai	g uai
+guan	g ua n
+guang	g ua ng
+gui	g uei
+gun	g ue n
+guo	g uo
+ha	h a
+hai	h ai
+han	h a n
+hang	h a ng
+hao	h ao
+he	h e
+hei	h ei
+hen	h e n
+heng	h e ng
+hong	h o ng
+hou	h ou
+hu	h u
+hua	h ua
+huai	h uai
+huan	h ua n
+huang	h ua ng
+hui	h uei
+hun	h ue n
+huo	h uo
+ji	j i
+jia	j ia
+jian	j ia n
+jiang	j ia ng
+jiao	j iao
+jie	j ie
+jin	j i n
+jing	j i ng
+jiong	j io ng
+jiu	j iou
+ju	j v
+juan	j va n
+jue	j ve
+jun	j v n
+ka	k a
+kai	k ai
+kan	k a n
+kang	k a ng
+kao	k ao
+ke	k e
+kei	k ei
+ken	k e n
+keng	k e ng
+kong	k o ng
+kou	k ou
+ku	k u
+kua	k ua
+kuai	k uai
+kuan	k ua n
+kuang	k ua ng
+kui	k uei
+kun	k ue n
+kuo	k uo
+la	l a
+lai	l ai
+lan	l a n
+lang	l a ng
+lao	l ao
+le	l e
+lei	l ei
+leng	l e ng
+li	l i
+lia	l ia
+lian	l ia n
+liang	l ia ng
+liao	l iao
+lie	l ie
+lin	l i n
+ling	l i ng
+liu	l iou
+lo	l o
+long	l o ng
+lou	l ou
+lu	l u
+luan	l ua n
+lue	l ve
+lun	l ue n
+luo	l uo
+lv	l v
+lve	l ve
+m	m
+ma	m a
+mai	m ai
+man	m a n
+mang	m a ng
+mao	m ao
+me	m e
+mei	m ei
+men	m e n
+meng	m e ng
+mi	m i
+mian	m ia n
+miao	m iao
+mie	m ie
+min	m i n
+ming	m i ng
+miu	m iou
+mo	m o
+mou	m ou
+mu	m u
+na	n a
+nai	n ai
+nan	n a n
+nang	n a ng
+nao	n ao
+ne	n e
+nei	n ei
+nen	n e n
+neng	n e ng
+ni	n i
+nian	n ia n
+niang	n ia ng
+niao	n iao
+nie	n ie
+nin	n i n
+ning	n i ng
+niu	n iou
+nong	n o ng
+nou	n ou
+nu	n u
+nuan	n ua n
+nue	n ve
+nun	n ue n
+nuo	n uo
+nv	n v
+nve	n ve
+o	o
+ou	ou
+pa	p a
+pai	p ai
+pan	p a n
+pang	p a ng
+pao	p ao
+pei	p ei
+pen	p e n
+peng	p e ng
+pi	p i
+pian	p ia n
+piao	p iao
+pie	p ie
+pin	p i n
+ping	p i ng
+po	p o
+pou	p ou
+pu	p u
+qi	q i
+qia	q ia
+qian	q ia n
+qiang	q ia ng
+qiao	q iao
+qie	q ie
+qin	q i n
+qing	q i ng
+qiong	q io ng
+qiu	q iou
+qu	q v
+quan	q va n
+que	q ve
+qun	q v n
+r	e r
+ran	r a n
+rang	r a ng
+rao	r ao
+re	r e
+ren	r e n
+reng	r e ng
+ri	r ii
+rong	r o ng
+rou	r ou
+ru	r u
+rua	r ua
+ruan	r ua n
+rui	r uei
+run	r ue n
+ruo	r uo
+sa	s a
+sai	s ai
+san	s a n
+sang	s a ng
+sao	s ao
+se	s e
+sen	s e n
+seng	s e ng
+sha	sh a
+shai	sh ai
+shan	sh a n
+shang	sh a ng
+shao	sh ao
+she	sh e
+shei	sh ei
+shen	sh e n
+sheng	sh e ng
+shi	sh ii
+shou	sh ou
+shu	sh u
+shua	sh ua
+shuai	sh uai
+shuan	sh ua n
+shuang	sh ua ng
+shui	sh uei
+shun	sh ue n
+shuo	sh uo
+si	s ii
+song	s o ng
+sou	s ou
+su	s u
+suan	s ua n
+sui	s uei
+sun	s ue n
+suo	s uo
+ta	t a
+tai	t ai
+tan	t a n
+tang	t a ng
+tao	t ao
+te	t e
+tei	t ei
+teng	t e ng
+ti	t i
+tian	t ia n
+tiao	t iao
+tie	t ie
+ting	t i ng
+tong	t o ng
+tou	t ou
+tu	t u
+tuan	t ua n
+tui	t uei
+tun	t ue n
+tuo	t uo
+wa	ua
+wai	uai
+wan	ua n
+wang	ua ng
+wei	uei
+wen	ue n
+weng	ue n
+wo	uo
+wu	u
+xi	x i
+xia	x ia
+xian	x ia n
+xiang	x ia ng
+xiao	x iao
+xie	x ie
+xin	x i n
+xing	x i ng
+xiong	x io ng
+xiu	x iou
+xu	x v
+xuan	x va n
+xue	x ve
+xun	x v n
+ya	ia
+yan	ia n
+yang	ia ng
+yao	iao
+ye	ie
+yi	i
+yin	i n
+ying	i ng
+yo	iou
+yong	io ng
+you	iou
+yu	v
+yuan	va n
+yue	ve
+yun	v n
+za	z a
+zai	z ai
+zan	z a n
+zang	z a ng
+zao	z ao
+ze	z e
+zei	z ei
+zen	z e n
+zeng	z e ng
+zha	zh a
+zhai	zh ai
+zhan	zh a n
+zhang	zh a ng
+zhao	zh ao
+zhe	zh e
+zhei	zh ei
+zhen	zh e n
+zheng	zh e ng
+zhi	zh ii
+zhong	zh o ng
+zhou	zh ou
+zhu	zh u
+zhua	zh ua
+zhuai	zh uai
+zhuan	zh ua n
+zhuang	zh ua ng
+zhui	zh uei
+zhun	zh ue n
+zhuo	zh uo
+zi	z ii
+zong	z o ng
+zou	z ou
+zu	z u
+zuan	z ua n
+zui	z uei
+zun	z ue n
+zuo	z uo
+xx	x x
