@@ -2,8 +2,6 @@
 
 Tool for aligning Chinese transcripts with audio using the AWS transcribe service.
 
-Tool for aligning Chinese transcripts with audio using the AWS transcribe service
-
 It can be installed using npm:
 
     npm install aws-chinese-forced-alignment
