@@ -93,7 +93,9 @@ function getIntervals(transcriptWords, recognitionOutput) {
     for (let text of transcriptWords) {
         let xmin, xmax;
         for (let char of text) {
-            let { start, end } = transcriptTimes[i++];
+            let transcriptTime = transcriptTimes[i++];;
+            if (!transcriptTime) continue;
+            let { start, end } = transcriptTime;
             if (!xmin) xmin = start;
             xmax = end || xmax;
         }
