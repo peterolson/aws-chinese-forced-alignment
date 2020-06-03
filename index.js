@@ -105,5 +105,7 @@ function getIntervals(transcriptWords, recognitionOutput) {
 }
 
 module.exports = {
-    getIntervals
+    getIntervals,
+    align,
+    isCharacterText
 };

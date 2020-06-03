@@ -4,7 +4,8 @@
   "description": "Tool for aligning Chinese transcripts with audio using the AWS transcribe service",
   "main": "index.js",
   "dependencies": {
-    "chinese-lexicon": "^1.0.40"
+    "chinese-lexicon": "^1.0.40",
+    "hanzi-tools": "^1.2.24"
   },
   "repository": {
     "type": "git",
