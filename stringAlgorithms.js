@@ -1,4 +1,4 @@
-const { compareChar } = require("./charSimilarity");
+const { areSimilar, compareChar } = require("./charSimilarity");
 
 /**
  * @param {string} string1
@@ -34,7 +34,7 @@ function longestCommonSubstring(string1, string2) {
 
     for (let rowIndex = 1; rowIndex <= s2.length; rowIndex += 1) {
         for (let columnIndex = 1; columnIndex <= s1.length; columnIndex += 1) {
-            if (compareChar(s1[columnIndex - 1], s2[rowIndex - 1]) >= 0.8) {
+            if (areSimilar(s1[columnIndex - 1], s2[rowIndex - 1])) {
                 substringMatrix[rowIndex][columnIndex] = substringMatrix[rowIndex - 1][columnIndex - 1] + 1;
             } else {
                 substringMatrix[rowIndex][columnIndex] = 0;
@@ -71,7 +71,7 @@ function indexOf(str, x) {
     for (let i = 0; i < str.length; i++) {
         var found = true;
         for (let j = 0; j < x.length; j++) {
-            if (compareChar(str[i + j], x[j]) < 0.8) {
+            if (!areSimilar(str[i + j], x[j])) {
                 found = false;
                 break;
             }
@@ -82,16 +82,16 @@ function indexOf(str, x) {
 }
 
 function bestOffset(long, short) {
-    let bestSimilarity = 0;
+    let bestDifference = Infinity;
     let bestIndex = 0;
     for (let i = 0; i <= long.length - short.length; i++) {
-        let similarity = 0;
+        let difference = 0;
         for (let j = 0; j < short.length; j++) {
-            similarity += compareChar(long[i + j], short[j]);
+            difference += compareChar(long[i + j], short[j]);
         }
-        if (similarity > bestSimilarity) {
+        if (difference < bestDifference) {
             bestIndex = i;
-            bestSimilarity = similarity;
+            bestDifference = difference;
         }
     }
     return bestIndex;

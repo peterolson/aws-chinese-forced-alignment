@@ -7,8 +7,8 @@ function isCharacterText(text) {
 }
 
 function align(a, b, alignment, aOffset, bOffset, path) {
-    if (!a.length) return;
-    if (!b.length) return;
+    if (!a.length) return [];
+    if (!b.length) return [];
     alignment = alignment || new Array(a.length);
     aOffset = aOffset || 0;
     bOffset = bOffset || 0;
@@ -16,25 +16,26 @@ function align(a, b, alignment, aOffset, bOffset, path) {
 
     let commonSubstring = longestCommonSubstring(a, b);
     let commonLength = commonSubstring.length;
+
     if (!commonLength) {
         if (a.length === b.length) {
             for (let i = 0; i < a.length; i++) {
                 alignment[aOffset + i] = bOffset + i;
             }
-            return;
+            return alignment;
         }
         if (b.length > a.length) {
             let offset = bestOffset(b, a);
             for (let i = 0; i < a.length; i++) {
                 alignment[aOffset + i] = bOffset + offset + i;
             }
-            return;
+            return alignment;
         }
         let offset = bestOffset(a, b);
         for (let i = 0; i < b.length; i++) {
             alignment[aOffset + offset + i] = bOffset + i;
         }
-        return;
+        return alignment;
     }
     let aIndex = indexOf(a, commonSubstring);
     let bIndex = indexOf(b, commonSubstring);
@@ -48,7 +49,6 @@ function align(a, b, alignment, aOffset, bOffset, path) {
 
     let rightA = a.slice(aIndex + commonLength);
     let rightB = b.slice(bIndex + commonLength);
-
     align(leftA, leftB, alignment, aOffset, bOffset, path + "l");
     align(rightA, rightB, alignment, aOffset + aIndex + commonLength, bOffset + bIndex + commonLength, path + "r");
 
