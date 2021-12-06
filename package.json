@@ -1,6 +1,6 @@
 {
   "name": "aws-chinese-forced-alignment",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Tool for aligning Chinese transcripts with audio using the AWS transcribe service",
   "main": "index.js",
   "dependencies": {
